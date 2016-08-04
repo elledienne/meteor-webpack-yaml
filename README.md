@@ -16,13 +16,12 @@ Or directly edit your package files adding `elledienne:yaml` on a new line
 ### Usage
 Super easy:
 
-```
-var json = require("json!yaml!./file.yml");
+``` javascript
+const json = require("json!yaml!./file.yml");
 ```
 
 Webpack will load your YAML file and return a JS object.
 
 ---
-Package create by
-
+Package created by
 [Lorenzo De Nobili](https://it.linkedin.com/in/elledienne)
