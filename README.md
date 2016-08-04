@@ -2,7 +2,7 @@
 
 Meteor package to integrate YAML import (.YAML) with [Webpack](https://atmospherejs.com/webpack/webpack)
 
-### Installation
+## Installation
 It's simply a Meteor package, so to install it simply type:
 
 ```
@@ -13,7 +13,7 @@ Or directly edit your package files adding `elledienne:yaml` on a new line
 
 **Important: this package will only work if you already have `webpack:webpack` installed. If you haven't, just `meteor add webpack:webpack`.***
 
-### Usage
+## Usage
 Super easy:
 
 ``` javascript
@@ -21,6 +21,7 @@ const json = require("json!yaml!./file.yml");
 ```
 
 Webpack will load your YAML file and return a JS object.
+
 
 ---
 Package created by
